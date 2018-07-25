@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <io.apptik.widget.MultiSlider
+        android:id="@+id/range_slider5"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:rotation="90"
+        app:thumbNumber="4"
+        app:stepsThumbsApart="5"
+        app:drawThumbsApart="true"/>
+</RelativeLayout>
